@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>Cats the API</title>
+    <!-- Scripts -->
+    <script src="./js/catAPI.js" defer></script> <!-- Defer loading of JavaScript file -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> <!-- jQuery library -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> <!-- Bootstrap JavaScript -->
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/main.css"> <!-- Custom CSS -->
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./images/favicon.ico">
+    <!-- Description -->
+    <meta name="description" content="Discover everything you need to know about cats, including their origins, playfulness levels, life expectancies, and general health. Explore a wide range of cat breeds and find the perfect companion for you.">
+</head>
+<body id="bodyContainer">
+    <!-- Student information -->
+    <p id="studentInfo"></p>
+    <!-- Button to get student ID -->
+    <button id="studentButton" class="btn btn-primary">
+        Get Student Id
+    </button>
+    <div class="row">   
+        <!-- Empty column -->
+        <div class="col-md-3"></div>
+        <!-- Input section -->
+        <div id="inputSection">
+            <!-- Button to get cat data -->
+            <div class="col-md-2">
+                <button id="catDataButton" class="btn btn-info">
+                    Get Cat Data
+                </button>
+            </div>
+            <!-- Select dropdown for cat playfulness -->
+            <div class="col-md-2">
+                <label id="selectLabel" for="catPlayfulness">Playfulness select</label>
+                <select class="form-select" id="catPlayfulness">
+                    <option value="0">Select Cat Playfulness</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <!-- Error text display area -->
+                <p class="errorText"></p>
+            </div>
+        </div>
+        <!-- Empty column -->
+        <div class="col-md-3"></div> 
+    </div>
+    <!-- Container for API results -->
+    <div id="apiResults" class="row"></div>
+</body>
+</html>

@@ -1,0 +1,146 @@
+/* Resetting default margin and padding and centering text alignment */
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    /* Setting background image to cover the entire viewport */
+    background-image: url(../images/forest.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Setting width to 90% of viewport width and height to 100% of viewport height */
+    width: 90vw;
+    height: 100vh;
+}
+
+/* Adding padding to the top of elements with class 'studentButton' */
+.studentButton {
+    padding-top: 15px;
+}
+
+/* Styling error text to be red */
+.errorText {
+    color: red;
+}
+
+/* Styling buttons */
+button {
+    height: 100px;
+    width: 125px;
+}
+
+/* Styling section with id 'inputSection' */
+#inputSection {
+    background-color: gray;
+}
+
+/* Styling paragraphs */
+p {
+    font-size: 40px;
+    color: gray;
+}
+
+/* Styling select elements */
+select {
+    width: 300px;
+    height: 75px;
+}
+
+/* Resetting margin and padding for all elements */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Removing padding from container */
+.container {
+    padding: 0;
+}
+
+/* Styling rows */
+.row {
+    margin-top: 30px;
+}
+
+/* Styling close button */
+#closeButton {
+    margin-right: -50px;
+}
+
+/* Styling elements with id 'studentInfo' to have white text color */
+#studentInfo {
+    color: blue;
+}
+
+/* Aligning items and content to center */
+#alignCenter {
+    align-items: center;
+    align-content: center;
+}
+
+/* Adding red border */
+.borderRed {
+    border-color: red;
+    border-width: 5px;
+}
+
+/* Adding green border */
+.borderGreen {
+    border-color: green;
+    border-width: 5px;
+}
+
+/* Styling table data cells */
+td {
+    color: whitesmoke;
+    font-size: large;
+}
+
+/* Styling tables */
+table {
+    margin-left: 200px;
+}
+
+/* Styling table, table header, and table data cells */
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+/* Styling table header and data cells */
+th,
+td {
+    width: 150px;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+/* Styling table headers */
+th {
+    font-weight: 1000;
+    color: whitesmoke;
+}
+
+/* Aligning items to center */
+div {
+    align-items: center;
+}
+
+/* Styling images */
+img {
+    width: 200px;
+    height: 250px;
+}
+
+/* Adding margin to button with id 'catDataButton' */
+#catDataButton {
+    margin-top: 15px;
+}
+
+/* Styling label with id 'selectLabel' */
+#selectLabel {
+    color: black;
+    font-size: larger;
+}
